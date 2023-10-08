@@ -9,12 +9,18 @@
     
 }
 .iconn{
-    margin-left: 100px;
+    margin-left: 30px;
 }
 
 .searchh{
     padding-left: 1300px;
 }
-.i{
-    margin-right: 5px;
+.iconn:hover{
+    color: rgb(176, 185, 175);
+}
+body{
+    background-color: #e9edf4;
+}
+.card{
+ background-color:#d9dfe9;
 }
