@@ -4,5 +4,17 @@
 
 .icon{
     color: rgb(255, 255, 255);
-    font-size: 2.5em;
+    font-size: 1em;
+    margin-left: 350px;
+    
+}
+.iconn{
+    margin-left: 100px;
+}
+
+.searchh{
+    padding-left: 1200px;
+}
+.icons{
+    margin-right: 5px;
 }
