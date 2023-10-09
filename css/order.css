@@ -3,8 +3,9 @@
     margin: 0;
     font-family: sans-serif;
 }
-.main{
-    background-image: url(/img/Order\ page.avif);
+
+body{
+    background-image:url(/img/Order\ page.avif);
 }
 .typee{
     margin-left: 100px;
