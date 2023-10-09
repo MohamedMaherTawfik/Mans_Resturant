@@ -1,3 +1,11 @@
+*{
+    padding: 0; 
+    margin: 0;
+    font-family: sans-serif;
+}
+.main{
+    background-image: url(/img/Order\ page.avif);
+}
 .typee{
     margin-left: 100px;
 }
@@ -12,15 +20,14 @@
     margin-left: 30px;
 }
 
-.searchh{
-    padding-left: 1300px;
-}
+
 .iconn:hover{
     color: rgb(176, 185, 175);
 }
-body{
-    background-color: #e9edf4;
-}
+
 .card{
  background-color:#d9dfe9;
+}
+.titlee{
+    margin-bottom: 15px;
 }
