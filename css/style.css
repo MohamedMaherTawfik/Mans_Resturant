@@ -99,3 +99,51 @@ color: rgb(216, 208, 208);
     border-radius: 10px;
     background-image: url(/img/MEal.png);
 }
+
+.titl{
+
+    padding: 50px;
+    margin-top: 25px;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.nav-link{
+    opacity: 60%;
+    text-decoration: none;
+}
+
+.nav-item::before{
+    content: "";
+    background-color: #ffffff;
+    transition: 0.5s;
+    
+}
+.nav-link{
+    color: white;
+    font-size: 16px;
+    letter-spacing: 1.5px;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+     position: relative;
+}
+
+.nav-link:hover{
+     color: #ffffff;
+    transition: 1s;
+opacity: 100%;
+}
+.namee{
+    font-size: 20px;
+    font-weight: 700;
+    margin-left: 10px;
+}
+.ppp{
+    margin-left: 158px;
+}
+
+/* .nav-link{
+    content: "";
+    background-color: #ffc107;
+    transition: 0.5s;
+    
+} */
