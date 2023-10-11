@@ -100,37 +100,9 @@ color: rgb(216, 208, 208);
     background-image: url(/img/MEal.png);
 }
 
-.titl{
-
-    padding: 50px;
-    margin-top: 25px;
-    font-size: 30px;
-    font-weight: 600;
-}
-
-.nav-link{
-    opacity: 60%;
-    text-decoration: none;
-}
-
-.nav-item::before{
-    content: "";
-    background-color: #ffffff;
-    transition: 0.5s;
-    
-}
-.nav-link{
-    color: white;
-    font-size: 16px;
-    letter-spacing: 1.5px;
-    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
-     position: relative;
-}
-
-.nav-link:hover{
-     color: #ffffff;
-    transition: 1s;
-opacity: 100%;
+.menu{
+    margin-top: 80px;
+    background-color: aquamarine;
 }
 .namee{
     font-size: 20px;
@@ -140,10 +112,41 @@ opacity: 100%;
 .ppp{
     margin-left: 158px;
 }
-
-/* .nav-link{
+.card-body{
+    border-radius: 10px;
+    box-shadow: black;
+}
+/* انا عملت من اول هنا */
+.collapse .navbar-nav .nav-item{
+    position: relative;
+}
+.collapse .navbar-nav .nav-item:first-child{
+    margin-right: 10px;
+}
+.collapse .navbar-nav .nav-item .active::after{
     content: "";
     background-color: #ffc107;
+    width: 100%;
+    height: 4px;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
     transition: 0.5s;
+ 
     
-} */
+    
+    }
+    .collapse .navbar-nav .nav-item .nav-link::before {
+        content: "";
+        background-color: #ffc107;
+        width: 0%;
+        height: 4px;
+        position: absolute;
+        left: 0;
+        bottom: -10px;
+    } 
+    .collapse .navbar-nav .nav-item .nav-link:hover::before , .collapse .navbar-nav .nav-item .nav-link:hover{
+    width: 100%;
+    transition: 1s;
+    opacity: 100%;
+}
