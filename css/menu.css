@@ -2,7 +2,21 @@
     background-position: center;
     background-size: cover;
 }
-.row{
-    border-radius: 15px;
-    
+
+.contentt{
+    font-size: 20px;
+    color: white;
+    font-weight: 600;
+}
+
+.titlee{
+    font-size: 30px; 
+    font-weight: 700; 
+    color: rgb(223, 226, 17);
+}
+.Margina{
+    margin-top: 10px;
+    font-size: 20px;
+    color: white;
+    font-weight: 600;
 }
