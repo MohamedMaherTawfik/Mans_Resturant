@@ -150,3 +150,7 @@ color: rgb(216, 208, 208);
     transition: 1s;
     opacity: 100%;
 }
+
+.pagee{
+background: url(/img/page.avif);
+}
