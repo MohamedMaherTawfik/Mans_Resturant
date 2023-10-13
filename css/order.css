@@ -2,33 +2,66 @@
     padding: 0; 
     margin: 0;
     font-family: sans-serif;
+    box-sizing: border-box;
+
 }
 
-body{
-    background-image:url(/img/Order\ page.avif);
-}
-.typee{
-    margin-left: 100px;
-}
-
-.icon{
+.nav-link{
     color: rgb(255, 255, 255);
-    font-size: 1em;
-    margin-left: 350px;
-    
+    opacity: 60%;
+    margin-left: 20px;
 }
-.iconn{
-    margin-left: 30px;
-}
-
-
-.iconn:hover{
-    color: rgb(176, 185, 175);
+.nav-link:hover{
+color: white;
+opacity: 100%;
 }
 
-.card{
- background-color:#d9dfe9;
+.wrap{
+display: flex;
+justify-content: center;
+align-items: center;
+min-height: 50vh;
+border-radius :25px; 
+width: 45%;
+background-color: #212529;
+
 }
-.titlee{
-    margin-bottom: 15px;
+
+.wrap h1{
+    font-size: 36px;
+    text-align: center;
+    color: white;
+    margin-bottom: 18px;
+}
+
+.wrap .input-box{
+height: 50px;
+margin: 15px 0;
+width: 100%;
+}
+
+.input-box input{
+    width: 100%;
+    border: none;
+    outline: none;
+    height: 100%;
+    border-radius: 40px;
+    padding: 20px;
+    font-size: 16px;
+}
+
+.input-box input::placeholder{
+    color: rgb(0, 0, 0);
+}
+.wrap .btn{
+    width: 100%;
+    height: 50%;
+    border-radius: 15px;
+    margin-top: 15px;
+    background-color: #212529;
+    font-size: 20px;
+}
+
+.btn ::-ms-value{
+width: 100%;
 }
